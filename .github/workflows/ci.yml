@@ -23,5 +23,5 @@ jobs:
       - name: Run Cypress tests
         run: docker-compose up --build
 
-      env:
-        CYPRESS_INSTALL_BINARY=0
+    env:
+      CYPRESS_INSTALL_BINARY=0
