@@ -1,0 +1,8 @@
+# docker-compose.yml
+
+version: '3'
+services:
+  cypress:
+    build: .
+    volumes:
+      - .:/e2e
